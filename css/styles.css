@@ -1,2 +1,85 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.social-profile-card {
+  background-color: hsl(0, 0%, 12%);
+  color: hsl(0, 0%, 100%);
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 8px;
+  width: 330px;
+  margin: 150px auto 0 auto;
+}
+
+.avatar-img {
+  border-radius: 50%;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.name {
+  margin: 20px 0 0 0;
+  font-size: 18px;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  margin: 8px 0 25px 0;
+}
+
+.about {
+  margin-bottom: 20px;
+}
+
+.social-medias {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-media {
+  background-color: hsl(0, 0%, 20%);
+  margin-bottom: 16px;
+  padding: 12px 24px;
+  border-radius: 6px;
+}
+
+.social-media-link {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.social-media:hover {
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+}
+
+.social-media:hover .social-media-link {
+  color: hsl(0, 0%, 8%);
+  font-weight: bold;
+}
+
+.footer {
+  margin: auto 0 30px 0;
+}
+
+.attribution {
+  text-align: center; 
+  color: hsl(0, 0%, 100%);
+ 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
