@@ -17,11 +17,11 @@ body {
 .social-profile-card {
   background-color: hsl(0, 0%, 12%);
   color: hsl(0, 0%, 100%);
-  padding: 20px 30px;
+  padding: 1.5em 2.2em;
   text-align: center;
   border-radius: 8px;
   width: 330px;
-  margin: 150px auto 0 auto;
+  margin: 10.7em auto 0 auto;
 }
 
 .avatar-img {
@@ -31,17 +31,17 @@ body {
 }
 
 .name {
-  margin: 20px 0 0 0;
+  margin: 1.125em 0 0;
   font-size: 1.125rem;
 }
 
 .location {
   color: hsl(75, 94%, 57%);
-  margin: 8px 0 25px 0;
+  margin: .5em 0 1.78em 0;
 }
 
 .about {
-  margin-bottom: 20px;
+  margin-bottom: 1.5em;
 }
 
 .social-medias {
@@ -51,8 +51,8 @@ body {
 
 .social-media {
   background-color: hsl(0, 0%, 20%);
-  margin-bottom: 16px;
-  padding: 12px 24px;
+  margin-bottom: 1.2em;
+  padding: 0.87em 1.75em;
   border-radius: 6px;
 }
 
@@ -72,7 +72,7 @@ body {
 }
 
 .footer {
-  margin: auto 0 30px 0;
+  margin: auto 0 1.5em 0;
 }
 
 .attribution {
